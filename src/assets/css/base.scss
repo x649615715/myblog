@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    a{
+        text-decoration: none;
+    }
+}
+body {
+    background-image: url('../assets/images/bg.jpg');
+    position: relative;
+    text-align: center;
+    .wrapper{
+        .container.main{
+            margin: 0px auto;
+            margin-top: 80px;
+            width: 1170px;
+            height: 1800px;
+            display: flex;
+            
+            flex-direction: row;
+            justify-content: space-between;
+            >article{
+                width: 70%;
+                margin-right: 15px;
+                // background-color: #f0f;
+            }
+            >aside{
+                width: 30%;
+                margin-left: 15px;
+                background-color: #0ff;
+            }
+        }
+        >footer{
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    }
+}

@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+import defaultPage from '../layout/default.vue'
+import Index from '../page/index.vue'
 
 Vue.use(VueRouter)
 
@@ -8,8 +9,15 @@ const routes = [
   {
     path: '/',
     name: 'home',
-    component: Home
+    component: defaultPage,
+    redirect: '/index',
+    children:[{
+      path: '/index',
+      name: 'index',
+      component: Index
+    }]
   },
+  
   {
     path: '/about',
     name: 'about',
@@ -21,6 +29,7 @@ const routes = [
 ]
 
 const router = new VueRouter({
+  mode: 'history',
   routes
 })
 
