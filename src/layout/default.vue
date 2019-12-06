@@ -2,14 +2,16 @@
   <div class="wrapper">
       <blog-nav /> 
       <div class="container main">
-          <router-view></router-view>
-          <aside>aside</aside>
+          <router-view />
+          <my-aside />
       </div>
-      <footer>footer</footer>
+      <my-footer />
   </div>
 </template>
 <script>
 import blogNav from '@/components/nav.vue'
+import myAside from '@/components/aside.vue'
+import myFooter from '@/components/footer.vue'
 // import axios from 'axios'
 // import {mapMutations} from 'vuex'
 export default {
@@ -22,7 +24,9 @@ export default {
         // })
     },
     components:{
-        blogNav
+        blogNav,
+        myAside,
+        myFooter
     }
 };
 </script>

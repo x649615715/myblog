@@ -33,7 +33,57 @@ export default new Vuex.Store({
       ctime: "2019-11-30",
       views: "310",
       tags: "laravel nginx proxy vue" 
-    }]
+    }],
+    hotList:['git-bash设置ssh心跳包防超时断开','注册谷歌时提示"此电话号码无法用于进','使用码云git的webhook实现生产环境代','树莓派安装homebridge小记','VirtualBox压缩vmdk、vagrant打包b'],
+    newComments:[{
+      user_name: "daxue0929",
+      comments: "你的网站要被我偷走了.啧啧.",
+      ctime: "一周前"
+    },
+    {
+      user_name: "a9520",
+      comments: "已加入收藏夹，时不时的来看看",
+      ctime: "一周前"
+    },
+    {
+      user_name: "a9520",
+      comments: "已加入收藏夹，时不时的来看看",
+      ctime: "一周前"
+    },
+    {
+      user_name: "a9520",
+      comments: "已加入收藏夹，时不时的来看看",
+      ctime: "一周前"
+    }],
+    friendshipList: [{
+      name: '挨踢茶馆',
+      link: ''
+    },
+    {
+      name: '挨踢茶馆',
+      link: ''
+    },
+    {
+      name: '信息安全与资讯',
+      link: ''
+    },
+    {
+      name: '他也叫郑晓博客',
+      link: ''
+    },
+    {
+      name: 'docker技术网站',
+      link: ''
+    },
+    {
+      name: "Jacky's Blog",
+      link: ''
+    },
+    {
+      name: 'easyAI人工智能',
+      link: ''
+    }],
+    footerLink: ["C/C++", "CSS/DIV", "java", "javacript", "Linux", "Mac", "PC技术", "PHP", "Python", "Raspberry", "Ubuntu", "wordpress", "关于SEO分享经验", "听听音乐", "幽默搞笑", "建站经验", "新闻资讯", "模拟飞行", "片言碎语", "玩转手机", "编程基础", "视频分享"]
   },
   mutations: {
     setData (state, data) {
