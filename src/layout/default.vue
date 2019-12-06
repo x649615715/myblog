@@ -10,16 +10,16 @@
 </template>
 <script>
 import blogNav from '@/components/nav.vue'
-import axios from 'axios'
+// import axios from 'axios'
 // import {mapMutations} from 'vuex'
 export default {
     
     created () {
-        axios.get('http://localhost:12380/data').then((val)=>{
-            // this.$store.state.data = val.data
-            this.$store.dispatch('ssetData',val.data)
-            console.log(this.$store.state.data)
-        })
+        // axios.get('http://localhost:12380/data').then((val)=>{
+        //     // this.$store.state.data = val.data
+        //     this.$store.dispatch('ssetData',val.data)
+        //     console.log(this.$store.state.data)
+        // })
     },
     components:{
         blogNav
