@@ -11,10 +11,10 @@
             <router-link to="index">地图</router-link> 
           </li>
           <li>
-            <router-link to="index">关于</router-link> 
+            <router-link to="about">关于</router-link> 
           </li>
           <li>
-            <router-link to="index">留言</router-link> 
+            <router-link to="guestbook">留言</router-link> 
           </li>
         </ul>
       </div>
