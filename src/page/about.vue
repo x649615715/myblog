@@ -36,10 +36,16 @@
         <a href="https://my.hosteons.com/aff.php?aff=123" rel="nofollow external">hostEONS</a> 洛杉矶节点，我在用，速度可以，可以干一些羞羞的事。
       </p>
     </div>
+    <comments /> 
   </article>
 </template>
 <script>
-export default {};
+import comments from '../components/comments'
+export default {
+    components: {
+        comments
+    }
+};
 </script>
 <style lang="scss">
 @import "@/assets/css/about.scss";
