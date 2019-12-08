@@ -83,7 +83,25 @@ export default new Vuex.Store({
       name: 'easyAI人工智能',
       link: ''
     }],
-    footerLink: ["C/C++", "CSS/DIV", "java", "javacript", "Linux", "Mac", "PC技术", "PHP", "Python", "Raspberry", "Ubuntu", "wordpress", "关于SEO分享经验", "听听音乐", "幽默搞笑", "建站经验", "新闻资讯", "模拟飞行", "片言碎语", "玩转手机", "编程基础", "视频分享"]
+    footerLink: ["C/C++", "CSS/DIV", "java", "javacript", "Linux", "Mac", "PC技术", "PHP", "Python", "Raspberry", "Ubuntu", "wordpress", "关于SEO分享经验", "听听音乐", "幽默搞笑", "建站经验", "新闻资讯", "模拟飞行", "片言碎语", "玩转手机", "编程基础", "视频分享"],
+    commentsList: [{
+      comments: '友链来访，老哥你怎么不理我呀',
+      user_name: 'Jeeyshe',
+      ctime: '2019年11月19日',
+      parent: '李庆林'
+    },
+    {
+      comments: '友链来访，老哥你怎么不理我呀',
+      user_name: 'Jeeyshe',
+      ctime: '2019年11月19日',
+      parent: '李庆林'
+    },
+    {
+      comments: '友链来访，老哥你怎么不理我呀',
+      user_name: 'Jeeyshe',
+      ctime: '2019年11月19日',
+      parent: '李庆林'
+    }]
   },
   mutations: {
     setData (state, data) {
