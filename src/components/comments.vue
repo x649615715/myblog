@@ -2,14 +2,17 @@
     <div class="comments">
         <h3>留言：目前有{{22}}条留言</h3>
         <comments-panel v-for="(item, index) in commentsList" :key="index" :data="item" />
+        <comments-container />
     </div>
 </template>
 <script>
 import commentsPanel from './commentsPanel.vue'
+import commentsContainer from './commentsContainer.vue'
 import {mapState} from 'vuex'
 export default {
     components: {
-        commentsPanel
+        commentsPanel,
+        commentsContainer
     },
     computed: {
         ...mapState(['commentsList'])
