@@ -7,16 +7,20 @@
         >   
             <panel :data="item" />
         </div>
+        <page-nation></page-nation>
+
     </article>
 </template>
 <script>
 import everyDay from '@/components/everyDay.vue'
 import panel from '@/components/panel.vue'
+import pageNation from '@/components/pageNation.vue'
 import {mapState} from 'vuex'
 export default {
     components: {
         everyDay,
-        panel
+        panel,
+        pageNation
     },
     computed : {
         ...mapState(['panelList'])
