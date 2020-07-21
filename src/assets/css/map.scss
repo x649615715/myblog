@@ -1,0 +1,14 @@
+.map-wrapper{
+    .map{
+        ul>li{
+
+            margin: 5px 0;
+            a{
+                color: #010101;
+                &:hover{
+                    color: #f40;
+                }
+            }
+        }
+    }
+}

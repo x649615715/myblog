@@ -7,6 +7,7 @@
     }
 }
 body {
+    width: 100%;
     background-image: url('../assets/images/bg.jpg');
     position: relative;
     text-align: center;
@@ -17,7 +18,8 @@ body {
         .container.main{
             margin: 0px auto;
             margin-top: 80px;
-            width: 1170px;
+            max-width: 1170px;
+            min-width: 820px;
             display: flex;
             
             flex-direction: row;
@@ -30,6 +32,16 @@ body {
             >aside{
                 width: 30%;
                 margin-left: 15px;
+            }
+            @media(max-width:1200px){
+                .aside{
+                    display: none;
+                }
+                article{
+                    margin: 0 auto;
+                    width: 820px;
+            
+                }
             }
         }
         >footer{

@@ -8,7 +8,7 @@
             <router-link to="index">首页</router-link> 
           </li>
           <li>
-            <router-link to="index">地图</router-link> 
+            <router-link to="map">地图</router-link> 
           </li>
           <li>
             <router-link to="about">关于</router-link> 

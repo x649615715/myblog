@@ -4,6 +4,7 @@ import defaultPage from '../layout/default.vue'
 import Index from '../page/index.vue'
 import guestBook from '../page/guestBook.vue'
 import about from '../page/about.vue'
+import map from '../page/map.vue'
 
 Vue.use(VueRouter)
 
@@ -27,6 +28,11 @@ const routes = [
       path: '/about',
       name: 'about',
       component: about
+    },
+    {
+      path: '/map',
+      name: 'map',
+      component: map
     }]
   }
 ]

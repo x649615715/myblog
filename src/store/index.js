@@ -101,7 +101,64 @@ export default new Vuex.Store({
       user_name: 'Jeeyshe',
       ctime: '2019年11月19日',
       parent: '李庆林'
-    }]
+    }],
+    mapList: [{
+      title: "使用Nginx反向代理部署laravel和history模式的Vue项目[更新]",
+      path: ""
+    },
+    {
+      title: "在Nginx中将http://zh30.com:443跳转到https://zh30.com:443[更新]",
+      path: ""
+    },
+    {
+      title: "php正则匹配中文汉字-正则表达式匹配中文",
+      path: ""
+    },
+    {
+      title: "树莓派安装homebridge小记",
+      path: ""
+    },
+    {
+      title: "Laravel5.4安装passport时遇到的一些问题",
+      path: ""
+    },
+    {
+      title: "yaf框架在nginx中的vhost配置",
+      path: ""
+    },
+    {
+      title: "Vue history模式编译后nginx无法访问的问题",
+      path: ""
+    },
+    {
+      title: "php hexdec超大数值的16进制转10进制",
+      path: ""
+    },
+    {
+      title: "php基于sha1withRSA算法的签名和验签(pfx证书)",
+      path: ""
+    },
+    {
+      title: "注册谷歌时提示”此电话号码无法用于进行验证”的解决办法",
+      path: ""
+    },
+    {
+      title: "使用Nginx反向代理部署laravel和history模式的Vue项目",
+      path: ""
+    },
+    {
+      title: "写了一个在Safari中图片热点map无效的bug",
+      path: ""
+    },
+    {
+      title: "使用Nginx反向代理部署laravel和history模式的Vue项目",
+      path: ""
+    },
+    {
+      title: "填坑解决homestead中serve添加多站点后无法访问",
+      path: ""
+    },
+  ]
   },
   mutations: {
     setData (state, data) {
